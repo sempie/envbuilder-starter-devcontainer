@@ -1,5 +1,4 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    }
+    "name": "DevContainer",
+    "image": "ghcr.io/sempie/dev-container:latest"
 }

@@ -2,6 +2,7 @@ FROM ubuntu
 
 RUN apt-get update
 RUN apt-get install vim sudo tmux curl neovim -y
+RUN apt-get install ntop -y
 
 RUN useradd -m -s /bin/bash -G sudo coder
 USER coder
